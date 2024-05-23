@@ -52,7 +52,7 @@ Here is a list of the functions currently available in Bend Utils:
 ### List
 
 - `concat(xs, ys)`: Concatenates two lists.
-  ```bend
+  ```py
   def concat(xs, ys):
     match ys:
       case List/Nil:
@@ -62,7 +62,7 @@ Here is a list of the functions currently available in Bend Utils:
   ```
 
 - `append(xs, x)`: Adds an element to the end of a list.
-  ```bend
+  ```py
   def append(xs, x):
     match xs:
       case List/Nil:
@@ -79,7 +79,7 @@ Here are the types defined in Bend Utils:
 ### Maybe
 
 - `Maybe`: Represents an optional value.
-  ```bend
+  ```py
   type Maybe:
     None
     Some { value }
@@ -88,7 +88,7 @@ Here are the types defined in Bend Utils:
 ### Bool
 
 - `Bool`: Represents a boolean value.
-  ```bend
+  ```py
   type Bool:
     true
     false
