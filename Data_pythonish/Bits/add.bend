@@ -18,3 +18,4 @@ def add(bits1, bits2):
           return Bits/I (add(bits1.pred, bits2.pred))
         case Bits/I:
           return Bits/O (inc (add(bits1.pred, bits2.pred)))
+
