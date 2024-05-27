@@ -1,4 +1,4 @@
-type Maybe:
+type Option:
   None
   Some { value }
 

@@ -1,7 +1,7 @@
 def is_none(v):
   match v:
-    case Maybe/None:
+    case Option/None:
       return Bool/true
-    case Maybe/Some:
+    case Option/Some:
       return Bool/false
 

@@ -1,7 +1,7 @@
 def to_string(v):
   match v:
-    case Maybe/None:
+    case Option/None:
       return "" 
-    case Maybe/Some:
+    case Option/Some:
       return v.value
 

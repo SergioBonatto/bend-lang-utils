@@ -1,15 +1,15 @@
 def equal(cmp, a, b):
   match a:
-    case Maybe/None:
+    case Option/None:
       match b:
-        case Maybe/None:
+        case Option/None:
           return Bool/true
-        case Maybe/Some:
+        case Option/Some:
           return Bool/false
-    case Maybe/Some:
+    case Option/Some:
       match b:
-        case Maybe/None:
+        case Option/None:
           return Bool/false
-        case Maybe/Some:
+        case Option/Some:
           return cmp(a.value, b.value)
 

@@ -1,6 +1,6 @@
 def default(v, default):
   match v:
-    case Maybe/None:
+    case Option/None:
       return default
-    case Maybe/Some:
+    case Option/Some:
       return v.value

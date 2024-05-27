@@ -1,8 +1,8 @@
 def to_bool(cond, v):
   match v:
-    case Maybe/None:
+    case Option/None:
       return Bool/false
-    case Maybe/Some:
+    case Option/Some:
       match cond(v.value):
         case Bool/true:
           return Bool/true

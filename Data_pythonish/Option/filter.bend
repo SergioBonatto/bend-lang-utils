@@ -1,11 +1,11 @@
 def filter(v, f):
   match v:
-    case Maybe/None:
-      return Maybe/None
-    case Maybe/Some:
+    case Option/None:
+      return Option/None
+    case Option/Some:
       switch f(v.value):
         case 0:
-          return Maybe/None
+          return Option/None
         case _:
           return v
 

@@ -1,7 +1,7 @@
 def is_some(v):
   match v:
-    case Maybe/None:
+    case Option/None:
       return Bool/false
-    case Maybe/Some:
+    case Option/Some:
       return Bool/true
 

@@ -1,7 +1,7 @@
 def or(a, b):
   match a:
-    case Maybe/None:
+    case Option/None:
       return b
-    case Maybe/Some:
+    case Option/Some:
       return a
 
