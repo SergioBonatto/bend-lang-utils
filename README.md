@@ -1,6 +1,6 @@
 # Bend-lang-utils
 
-Welcome to **Bend-lang-utils** – an unofficial, community-driven library of high-quality, functional programming utilities for the Bend language. With more than 12 years of functional programming experience, this project is continually evolving to provide a comprehensive collection of pure functions, immutable data types, and modular components for solving real-world problems in a functional paradigm.
+Welcome to **Bend-lang-utils** – an unofficial, community-driven library of high-quality, functional programming utilities for the Bend language. This project is continually evolving to provide a comprehensive collection of pure functions, immutable data types, and modular components for solving real-world problems in a functional paradigm.
 
 ---
 
