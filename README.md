@@ -75,11 +75,7 @@ tree = bst_insert(10, tree)
 tree = bst_insert(5, tree)
 tree = bst_insert(15, tree)
 ```
-Refer to
-
-bst_insert
-
- for further details.
+Refer to [`bst_insert`](Data_pythonish/BinaryTree/bst_insert.bend) for further details.
 
 ### List Manipulation Example
 
@@ -90,11 +86,7 @@ l1 = List/Cons(1, List/Cons(2, List/Nil))
 l2 = List/Cons(3, List/Cons(4, List/Nil))
 combined = concat(l1, l2)
 ```
-See
-
-concat
-
- for the full implementation.
+See [`concat`](Data_pythonish/List/concat.bend) for the full implementation.
 
 ### Option Handling Example
 
@@ -104,11 +96,7 @@ Safely transform an optional value:
 o_value = Option/Some(5)
 result = map(o_value, (lambda x: x * 2))
 ```
-For more details, consult
-
-map
-
-.
+For more details, consult [`map`](Data_pythonish/Option/map.bend).
 
 ### Boolean Utility Example
 
@@ -119,11 +107,7 @@ a = Bool/true
 b = Bool/false
 result = or(a, b)
 ```
-Refer to
-
-or
-
- for the underlying implementation.
+Refer to [`or`](Data_pythonish/Bool/or.bend) for the underlying implementation.
 
 ---
 
